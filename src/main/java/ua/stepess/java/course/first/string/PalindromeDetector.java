@@ -2,11 +2,11 @@ package ua.stepess.java.course.first.string;
 
 /**
  * Should return true if provided string is palindrome ignoring case or false otherwise.
- *
+ * <p>
  * Examples:
- *  - mom -- true;
- *  - Mom -- true;
- *  - cat -- false;
+ * - mom -- true;
+ * - Mom -- true;
+ * - cat -- false;
  */
 public class PalindromeDetector {
 

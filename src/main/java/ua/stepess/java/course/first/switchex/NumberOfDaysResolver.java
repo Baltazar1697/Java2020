@@ -1,7 +1,6 @@
 package ua.stepess.java.course.first.switchex;
 
 
-
 /**
  * Write a Java program to find the number of days in a month.
  */
@@ -17,15 +16,15 @@ public class NumberOfDaysResolver {
             days = 28;
         }
         for (int i = 0; i < 7; i++) {
-            if(months31[i] == month){
+            if (months31[i] == month) {
                 days = 31;
-            }else if(months30[i] == month){
+            } else if (months30[i] == month) {
                 days = 30;
                 break;
             }
         }
-            return days;
-        }
+        return days;
     }
+}
 
 
